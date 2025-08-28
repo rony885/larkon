@@ -1,5 +1,3 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -11,8 +9,7 @@ const UL = ({ handleTogglle }) => {
   // Ref for the active element
   const activeItemRef = useRef(null);
 
-
- // Scroll to active item when route changes
+  // Scroll to active item when route changes
   useEffect(() => {
     setTimeout(() => {
       if (activeItemRef.current) {
@@ -245,7 +242,7 @@ const UL = ({ handleTogglle }) => {
           <Link
             className={`nav-link ${activeMenu === "dashboard" ? "active" : ""}`}
             to="/"
-               ref={location.pathname === "/" ? activeItemRef : null}
+            ref={location.pathname === "/" ? activeItemRef : null}
           >
             <span className="nav-icon">
               <iconify-icon icon="solar:widget-5-bold-duotone"></iconify-icon>
@@ -994,24 +991,6 @@ const UL = ({ handleTogglle }) => {
 
         <li className="menu-title mt-2">Other Apps</li>
 
-        {/* <li className="nav-item">
-          <Link className="nav-link" to="/apps-chat">
-            <span className="nav-icon">
-              <iconify-icon icon="solar:chat-round-bold-duotone"></iconify-icon>
-            </span>
-            <span className="nav-text"> Chat </span>
-          </Link>
-        </li> */}
-
-        {/* <li className="nav-item">
-          <Link className="nav-link" to="/email">
-            <span className="nav-icon">
-              <iconify-icon icon="solar:mailbox-bold-duotone"></iconify-icon>
-            </span>
-            <span className="nav-text"> Email </span>
-          </Link>
-        </li> */}
-
         <li className="nav-item">
           <Link
             className={`nav-link ${activeMenu === "calendar" ? "active" : ""}`}
@@ -1193,7 +1172,7 @@ const UL = ({ handleTogglle }) => {
                   }`}
                   onClick={handleTogglle}
                   to="/sign-in"
-                      ref={activeSubMenu === "sign-in" ? activeItemRef : null}
+                  ref={activeSubMenu === "sign-in" ? activeItemRef : null}
                 >
                   Sign In
                 </Link>
@@ -1284,27 +1263,6 @@ const UL = ({ handleTogglle }) => {
                 </Link>
               </li>
 
-              {/* <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/alerts">
-                  Alerts
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/avatar">
-                  Avatar
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/badge">
-                  Badge
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/breadcrumb">
-                  Breadcrumb
-                </Link>
-              </li> */}
-
               <li className="sub-nav-item">
                 <Link
                   className={`sub-nav-link  ${
@@ -1349,16 +1307,7 @@ const UL = ({ handleTogglle }) => {
                   Collapse
                 </Link>
               </li>
-              {/* <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/dropdown">
-                  Dropdown
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/list-group">
-                  List Group
-                </Link>
-              </li> */}
+
               <li className="sub-nav-item">
                 <Link
                   className={`sub-nav-link  ${
@@ -1381,42 +1330,6 @@ const UL = ({ handleTogglle }) => {
                   Tabs
                 </Link>
               </li>
-
-              {/* <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/offcanvas">
-                  Offcanvas
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/pagination">
-                  Pagination
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/placeholders">
-                  Placeholders
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/popovers">
-                  Popovers
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/progress">
-                  Progress
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/scrollspy">
-                  Scrollspy
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/spinners">
-                  Spinners
-                </Link>
-              </li> */}
 
               <li className="sub-nav-item">
                 <Link
@@ -1443,51 +1356,6 @@ const UL = ({ handleTogglle }) => {
             </ul>
           </div>
         </li>
-
-        {/* <li className="nav-item">
-          <Link
-            className="nav-link menu-arrow"
-            to="#sidebarExtendedUI"
-            data-bs-toggle="collapse"
-            role="button"
-            aria-expanded="false"
-            aria-controls="sidebarExtendedUI"
-          >
-            <span className="nav-icon">
-              <iconify-icon icon="solar:case-round-bold-duotone"></iconify-icon>
-            </span>
-            <span className="nav-text"> Advanced UI </span>
-          </Link>
-          <div className="collapse" id="sidebarExtendedUI">
-            <ul className="nav sub-navbar-nav">
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/ratings">
-                  Ratings
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/sweetalert">
-                  Sweet Alert
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/swiper-silder">
-                  Swiper Slider
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/scrollbar">
-                  Scrollbar
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" href="/toastify">
-                  Toastify
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </li> */}
 
         <li className="nav-item">
           <Link
@@ -1644,11 +1512,7 @@ const UL = ({ handleTogglle }) => {
                   Choice Select
                 </Link>
               </li>
-              {/* <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/forms-clipboard">
-                  Clipboard
-                </Link>
-              </li> */}
+
               <li className="sub-nav-item">
                 <Link
                   className={`sub-nav-link  ${
@@ -1660,21 +1524,7 @@ const UL = ({ handleTogglle }) => {
                   Flatepicker
                 </Link>
               </li>
-              {/* <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/forms-validation">
-                  Validation
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/forms-wizard">
-                  Wizard
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/forms-fileuploads">
-                  File Upload
-                </Link>
-              </li> */}
+
               <li className="sub-nav-item">
                 <Link
                   className={`sub-nav-link  ${
@@ -1686,80 +1536,9 @@ const UL = ({ handleTogglle }) => {
                   Editors
                 </Link>
               </li>
-              {/* <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/forms-input-mask">
-                  Input Mask
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/forms-range-slider">
-                  Slider
-                </Link>
-              </li> */}
             </ul>
           </div>
         </li>
-
-        {/* 
-        <li className="nav-item">
-          <Link
-            className="nav-link menu-arrow"
-            to="#sidebarTables"
-            data-bs-toggle="collapse"
-            role="button"
-            aria-expanded="false"
-            aria-controls="sidebarTables"
-          >
-            <span className="nav-icon">
-              <iconify-icon icon="solar:tuning-2-bold-duotone"></iconify-icon>
-            </span>
-            <span className="nav-text"> Tables </span>
-          </Link>
-          <div className="collapse" id="sidebarTables">
-            <ul className="nav sub-navbar-nav">
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/tables-basic">
-                  Basic Tables
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/tables-gridjs">
-                  Grid Js
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </li> */}
-
-        {/* <li className="nav-item">
-          <Link
-            className="nav-link menu-arrow"
-            to="#sidebarMaps"
-            data-bs-toggle="collapse"
-            role="button"
-            aria-expanded="false"
-            aria-controls="sidebarMaps"
-          >
-            <span className="nav-icon">
-              <iconify-icon icon="solar:streets-map-point-bold-duotone"></iconify-icon>
-            </span>
-            <span className="nav-text"> Maps </span>
-          </Link>
-          <div className="collapse" id="sidebarMaps">
-            <ul className="nav sub-navbar-nav">
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/maps-google">
-                  Google Maps
-                </Link>
-              </li>
-              <li className="sub-nav-item">
-                <Link className="sub-nav-link" to="/maps-vector">
-                  Vector Maps
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </li> */}
       </ul>
     </>
   );

@@ -16,7 +16,6 @@ const SidebarMenu = ({ handleTogglle }) => {
   return (
     <Wrapper>
       <div className="main-nav">
-        {/* <!-- Sidebar Logo --> */}
         <div className="logo-box d-flex align-items-center justify-content-between">
           <div>
             <Link to="/" className="logo-dark">

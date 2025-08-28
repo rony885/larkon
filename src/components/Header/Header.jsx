@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from "react";
 import "@iconify-icon/react";
+import { Link } from "react-router-dom";
 
 const Header = ({ handleTogglle }) => {
   // const [theme, setTheme] = useState("light"); // Default theme is 'light'
@@ -127,19 +126,19 @@ const Header = ({ handleTogglle }) => {
                       <h6 className="m-0 fs-16 fw-semibold">Notifications</h6>
                     </div>
                     <div className="col-auto">
-                      <a
-                        href="javascript: void(0);"
+                      <Link
+                        to="#"
                         className="text-dark text-decoration-underline"
                       >
                         <small>Clear All</small>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div data-simplebar style={{ maxHeight: "280px" }}>
                   {/* <!-- Item --> */}
-                  <a
-                    href="javascript:void(0);"
+                  <Link
+                    to="#"
                     className="dropdown-item py-3 border-bottom text-wrap"
                   >
                     <div className="d-flex">
@@ -160,12 +159,9 @@ const Header = ({ handleTogglle }) => {
                         </p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                   {/* <!-- Item --> */}
-                  <a
-                    href="javascript:void(0);"
-                    className="dropdown-item py-3 border-bottom"
-                  >
+                  <Link to="#" className="dropdown-item py-3 border-bottom">
                     <div className="d-flex">
                       <div className="flex-shrink-0">
                         <div className="avatar-sm me-2">
@@ -181,12 +177,9 @@ const Header = ({ handleTogglle }) => {
                         </p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                   {/* <!-- Item --> */}
-                  <a
-                    href="javascript:void(0);"
-                    className="dropdown-item py-3 border-bottom"
-                  >
+                  <Link to="#" className="dropdown-item py-3 border-bottom">
                     <div className="d-flex">
                       <div className="flex-shrink-0">
                         <img
@@ -203,12 +196,9 @@ const Header = ({ handleTogglle }) => {
                         </p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                   {/* <!-- Item --> */}
-                  <a
-                    href="javascript:void(0);"
-                    className="dropdown-item py-3 border-bottom"
-                  >
+                  <Link to="#" className="dropdown-item py-3 border-bottom">
                     <div className="d-flex">
                       <div className="flex-shrink-0">
                         <div className="avatar-sm me-2">
@@ -224,12 +214,9 @@ const Header = ({ handleTogglle }) => {
                         </p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                   {/* <!-- Item --> */}
-                  <a
-                    href="javascript:void(0);"
-                    className="dropdown-item py-3 border-bottom"
-                  >
+                  <Link to="#" className="dropdown-item py-3 border-bottom">
                     <div className="d-flex">
                       <div className="flex-shrink-0">
                         <img
@@ -243,16 +230,13 @@ const Header = ({ handleTogglle }) => {
                         <p className="mb-0 text-wrap">Commented on Admin</p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="text-center py-3">
-                  <a
-                    href="javascript:void(0);"
-                    className="btn btn-primary btn-sm"
-                  >
+                  <Link to="#" className="btn btn-primary btn-sm">
                     View All Notification
                     <i className="bx bx-right-arrow-alt ms-1"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -293,7 +277,7 @@ const Header = ({ handleTogglle }) => {
 
             {/* <!-- User --> */}
             <div className="dropdown topbar-item">
-              <a
+              <Link
                 type="button"
                 className="topbar-button"
                 id="page-header-user-dropdown"
@@ -309,41 +293,41 @@ const Header = ({ handleTogglle }) => {
                     alt="avatar-3"
                   />
                 </span>
-              </a>
+              </Link>
               <div className="dropdown-menu dropdown-menu-end">
                 {/* <!-- item--> */}
                 <h6 className="dropdown-header">Welcome Gaston!</h6>
-                <a className="dropdown-item" href="pages-profile.html">
+                <Link className="dropdown-item" to="pages-profile.html">
                   <i className="bx bx-user-circle text-muted fs-18 align-middle me-1"></i>
                   <span className="align-middle">Profile</span>
-                </a>
-                <a className="dropdown-item" href="apps-chat.html">
+                </Link>
+                <Link className="dropdown-item" to="apps-chat.html">
                   <i className="bx bx-message-dots text-muted fs-18 align-middle me-1"></i>
                   <span className="align-middle">Messages</span>
-                </a>
+                </Link>
 
-                <a className="dropdown-item" href="pages-pricing.html">
+                <Link className="dropdown-item" to="pages-pricing.html">
                   <i className="bx bx-wallet text-muted fs-18 align-middle me-1"></i>
                   <span className="align-middle">Pricing</span>
-                </a>
-                <a className="dropdown-item" href="pages-faqs.html">
+                </Link>
+                <Link className="dropdown-item" to="pages-faqs.html">
                   <i className="bx bx-help-circle text-muted fs-18 align-middle me-1"></i>
                   <span className="align-middle">Help</span>
-                </a>
-                <a className="dropdown-item" href="auth-lock-screen.html">
+                </Link>
+                <Link className="dropdown-item" to="auth-lock-screen.html">
                   <i className="bx bx-lock text-muted fs-18 align-middle me-1"></i>
                   <span className="align-middle">Lock screen</span>
-                </a>
+                </Link>
 
                 <div className="dropdown-divider my-1"></div>
 
-                <a
+                <Link
                   className="dropdown-item text-danger"
-                  href="auth-signin.html"
+                  to="auth-signin.html"
                 >
                   <i className="bx bx-log-out fs-18 align-middle me-1"></i>
                   <span className="align-middle">Logout</span>
-                </a>
+                </Link>
               </div>
             </div>
 

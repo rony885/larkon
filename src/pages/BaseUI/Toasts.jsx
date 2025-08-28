@@ -71,34 +71,6 @@ const Toasts = () => {
                       Copy
                     </button>
                   </div>
-
-                  {/* <div className="code">
-                    <pre className="language-html">
-                      <code>
-                        &lt;!-- Basic Toast --&gt; &lt;div className=&quot;toast
-                        fade show&quot; role=&quot;alert&quot;
-                        aria-live=&quot;assertive&quot;
-                        aria-atomic=&quot;true&quot;
-                        data-bs-toggle=&quot;toast&quot;&gt; &lt;div
-                        className=&quot;toast-header d-block&quot;&gt; &lt;div
-                        className=&quot;float-end&quot;&gt; &lt;small&gt;11 mins
-                        ago&lt;/small&gt; &lt;button type=&quot;button&quot;
-                        className=&quot;ms-2 btn-close&quot;
-                        data-bs-dismiss=&quot;toast&quot;
-                        aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
-                        &lt;/div&gt; &lt;div className=&quot;auth-logo&quot;&gt;
-                        &lt;img className=&quot;logo-dark&quot;
-                        src=&quot;assets/images/logo-dark.png&quot;
-                        alt=&quot;logo-dark&quot; height=&quot;18&quot; /&gt;
-                        &lt;img className=&quot;logo-light&quot;
-                        src=&quot;assets/images/logo-light.png&quot;
-                        alt=&quot;logo-light&quot; height=&quot;18&quot; /&gt;
-                        &lt;/div&gt; &lt;/div&gt; &lt;div
-                        className=&quot;toast-body&quot;&gt; Hello, world! This
-                        is a toast message. &lt;/div&gt; &lt;/div&gt;
-                      </code>
-                    </pre>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -174,40 +146,6 @@ const Toasts = () => {
                       Copy
                     </button>
                   </div>
-
-                  {/* <div className="code">
-                    <pre className="language-html">
-                      <code>
-                        &lt;button type=&quot;button&quot; className=&quot;btn
-                        btn-primary&quot;
-                        id=&quot;liveToastDefaultBtn&quot;&gt;Show live
-                        toast&lt;/button&gt; &lt;div
-                        className=&quot;toast-container position-fixed bottom-0
-                        end-0 p-3&quot;&gt; &lt;div
-                        id=&quot;liveToastDefault&quot;
-                        className=&quot;toast&quot; role=&quot;alert&quot;
-                        aria-live=&quot;assertive&quot;
-                        aria-atomic=&quot;true&quot;&gt; &lt;div
-                        className=&quot;toast-header&quot;&gt; &lt;div
-                        className=&quot;auth-logo me-auto&quot;&gt; &lt;img
-                        className=&quot;logo-dark&quot;
-                        src=&quot;assets/images/logo-dark.png&quot;
-                        alt=&quot;logo-dark&quot; height=&quot;18&quot; /&gt;
-                        &lt;img className=&quot;logo-light&quot;
-                        src=&quot;assets/images/logo-light.png&quot;
-                        alt=&quot;logo-light&quot; height=&quot;18&quot; /&gt;
-                        &lt;/div&gt; &lt;small&gt;11 mins ago&lt;/small&gt;
-                        &lt;button type=&quot;button&quot;
-                        className=&quot;btn-close&quot;
-                        data-bs-dismiss=&quot;toast&quot;
-                        aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
-                        &lt;/div&gt; &lt;div
-                        className=&quot;toast-body&quot;&gt; Hello, world! This
-                        is a toast message. &lt;/div&gt; &lt;/div&gt;
-                        &lt;/div&gt;
-                      </code>
-                    </pre>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -324,62 +262,6 @@ const Toasts = () => {
                       Copy
                     </button>
                   </div>
-
-                  {/* <div className="code">
-                    <pre className="language-html">
-                      <code>
-                        &lt;button type=&quot;button&quot; className=&quot;btn
-                        btn-primary&quot; id=&quot;liveToastBtn&quot;&gt;Show
-                        live toast&lt;/button&gt; &lt;button
-                        type=&quot;button&quot; className=&quot;btn
-                        btn-primary&quot; id=&quot;liveToastBtn2&quot;&gt;Show
-                        live toast&lt;/button&gt; &lt;div
-                        className=&quot;toast-container position-fixed end-0
-                        top-0 p-3&quot;&gt; &lt;div id=&quot;liveToast&quot;
-                        className=&quot;toast&quot; role=&quot;alert&quot;
-                        aria-live=&quot;assertive&quot;
-                        aria-atomic=&quot;true&quot;&gt; &lt;div
-                        className=&quot;toast-header&quot;&gt; &lt;div
-                        className=&quot;auth-logo me-auto&quot;&gt; &lt;img
-                        className=&quot;logo-dark&quot;
-                        src=&quot;assets/images/logo-dark.png&quot;
-                        alt=&quot;logo-dark&quot; height=&quot;18&quot; /&gt;
-                        &lt;img className=&quot;logo-light&quot;
-                        src=&quot;assets/images/logo-light.png&quot;
-                        alt=&quot;logo-light&quot; height=&quot;18&quot; /&gt;
-                        &lt;/div&gt; &lt;small
-                        className=&quot;text-muted&quot;&gt;just
-                        now&lt;/small&gt; &lt;button type=&quot;button&quot;
-                        className=&quot;btn-close&quot;
-                        data-bs-dismiss=&quot;toast&quot;
-                        aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
-                        &lt;/div&gt; &lt;div
-                        className=&quot;toast-body&quot;&gt; See? Just like
-                        this. &lt;/div&gt; &lt;/div&gt; &lt;div
-                        id=&quot;liveToast2&quot; className=&quot;toast&quot;
-                        role=&quot;alert&quot; aria-live=&quot;assertive&quot;
-                        aria-atomic=&quot;true&quot;&gt; &lt;div
-                        className=&quot;toast-header&quot;&gt; &lt;div
-                        className=&quot;auth-logo me-auto&quot;&gt; &lt;img
-                        className=&quot;logo-dark&quot;
-                        src=&quot;assets/images/logo-dark.png&quot;
-                        alt=&quot;logo-dark&quot; height=&quot;18&quot; /&gt;
-                        &lt;img className=&quot;logo-light&quot;
-                        src=&quot;assets/images/logo-light.png&quot;
-                        alt=&quot;logo-light&quot; height=&quot;18&quot; /&gt;
-                        &lt;/div&gt; &lt;small
-                        className=&quot;text-muted&quot;&gt;2 seconds
-                        ago&lt;/small&gt; &lt;button type=&quot;button&quot;
-                        className=&quot;btn-close&quot;
-                        data-bs-dismiss=&quot;toast&quot;
-                        aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
-                        &lt;/div&gt; &lt;div
-                        className=&quot;toast-body&quot;&gt; Heads up, toasts
-                        will stack automatically &lt;/div&gt; &lt;/div&gt;
-                        &lt;/div&gt;
-                      </code>
-                    </pre>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -679,32 +561,7 @@ const Toasts = () => {
                     </button>
                   </div>
 
-                  {/* <div className="code">
-                    <pre className="language-html">
-                      <code id="outlinetButtons">
-                        &lt;div className=&quot;toast fade&quot;
-                        role=&quot;alert&quot; aria-live=&quot;assertive&quot;
-                        aria-atomic=&quot;true&quot;
-                        data-bs-toggle=&quot;toast&quot;&gt; &lt;div
-                        className=&quot;toast-header d-block&quot;&gt; &lt;div
-                        className=&quot;float-end&quot;&gt; &lt;small&gt;11 mins
-                        ago&lt;/small&gt; &lt;button type=&quot;button&quot;
-                        className=&quot;ms-2 btn-close&quot;
-                        data-bs-dismiss=&quot;toast&quot;
-                        aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
-                        &lt;/div&gt; &lt;div className=&quot;auth-logo&quot;&gt;
-                        &lt;img className=&quot;logo-dark me-1&quot;
-                        src=&quot;assets/images/logo-dark.png&quot;
-                        alt=&quot;logo-dark&quot; height=&quot;18&quot; /&gt;
-                        &lt;img className=&quot;logo-light&quot;
-                        src=&quot;assets/images/logo-light.png&quot;
-                        alt=&quot;logo-light&quot; height=&quot;18&quot; /&gt;
-                        &lt;/div&gt; &lt;/div&gt; &lt;div
-                        className=&quot;toast-body&quot;&gt; Hello, world! This
-                        is a toast message. &lt;/div&gt; &lt;/div&gt;
-                      </code>
-                    </pre>
-                  </div> */}
+                 
                 </div>
               </div>
             </div>
@@ -768,7 +625,7 @@ const Toasts = () => {
                     </div>
                   </div>
 
-                  {/* <form>
+                  <form>
                     <div className="my-3">
                       <label
                         htmlFor="selectToastPlacement"
@@ -807,7 +664,7 @@ const Toasts = () => {
                         <option value="bottom-0 end-0">Bottom right</option>
                       </select>
                     </div>
-                  </form> */}
+                  </form>
                 </div>
 
                 <div className="highlight">
@@ -820,63 +677,7 @@ const Toasts = () => {
                       Copy
                     </button>
                   </div>
-                  {/* 
-                  <div className="code">
-                    <pre className="language-html">
-                      <code id="outlinetButtons">
-                        &lt;form&gt; &lt;div className=&quot;mb-3&quot;&gt;
-                        &lt;label htmlFor=&quot;selectToastPlacement&quot;
-                        className=&quot;form-label&quot;&gt;Toast
-                        placement&lt;/label&gt; &lt;select
-                        className=&quot;form-select mt-2&quot; data-choices
-                        id=&quot;selectToastPlacement&quot;&gt; &lt;option
-                        defaultValue=&quot;&quot; selected&gt;Select a
-                        position...&lt;/option&gt; &lt;option defaultValue=&quot;top-0
-                        start-0&quot;&gt;Top left (&lt;code
-                        className=&quot;text-danger&quot;&gt;.top-0
-                        .start-0&lt;/code&gt;)&lt;/option&gt; &lt;option
-                        defaultValue=&quot;top-0 start-50
-                        translate-middle-x&quot;&gt;Top center&lt;/option&gt;
-                        &lt;option defaultValue=&quot;top-0 end-0&quot;&gt;Top
-                        right&lt;/option&gt; &lt;option defaultValue=&quot;top-50
-                        start-0 translate-middle-y&quot;&gt;Middle
-                        left&lt;/option&gt; &lt;option defaultValue=&quot;top-50
-                        start-50 translate-middle&quot;&gt;Middle
-                        center&lt;/option&gt; &lt;option defaultValue=&quot;top-50
-                        end-0 translate-middle-y&quot;&gt;Middle
-                        right&lt;/option&gt; &lt;option defaultValue=&quot;bottom-0
-                        start-0&quot;&gt;Bottom left&lt;/option&gt; &lt;option
-                        defaultValue=&quot;bottom-0 start-50
-                        translate-middle-x&quot;&gt;Bottom center&lt;/option&gt;
-                        &lt;option defaultValue=&quot;bottom-0 end-0&quot;&gt;Bottom
-                        right&lt;/option&gt; &lt;/select&gt; &lt;/div&gt;
-                        &lt;/form&gt; &lt;div aria-live=&quot;polite&quot;
-                        aria-atomic=&quot;true&quot; className=&quot; bg-light
-                        position-relative&quot; style=&quot;min-height:
-                        350px;&quot;&gt; &lt;div className=&quot;toast-container
-                        position-absolute p-3&quot;
-                        id=&quot;toastPlacement&quot;&gt; &lt;div
-                        className=&quot;toast show mb-2&quot;&gt; &lt;div
-                        className=&quot;toast-header d-block&quot;&gt; &lt;div
-                        className=&quot;float-end&quot;&gt; &lt;small&gt;11 mins
-                        ago&lt;/small&gt; &lt;button type=&quot;button&quot;
-                        className=&quot;ms-2 btn-close&quot;
-                        data-bs-dismiss=&quot;toast&quot;
-                        aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
-                        &lt;/div&gt; &lt;div className=&quot;auth-logo&quot;&gt;
-                        &lt;img className=&quot;logo-dark me-1&quot;
-                        src=&quot;assets/images/logo-dark.png&quot;
-                        alt=&quot;logo-dark&quot; height=&quot;18&quot; /&gt;
-                        &lt;img className=&quot;logo-light&quot;
-                        src=&quot;assets/images/logo-light.png&quot;
-                        alt=&quot;logo-light&quot; height=&quot;18&quot; /&gt;
-                        &lt;/div&gt; &lt;/div&gt; &lt;div
-                        className=&quot;toast-body&quot;&gt; Hello, world! This
-                        is a toast message. &lt;/div&gt; &lt;/div&gt;
-                        &lt;/div&gt; &lt;/div&gt;
-                      </code>
-                    </pre>
-                  </div> */}
+               
                 </div>
               </div>
               {/* <!-- end card body --> */}

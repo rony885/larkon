@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Buttons = () => {
   return (
@@ -14,9 +13,9 @@ const Buttons = () => {
               <div className="card-body">
                 <h5 className="card-title mb-1 anchor" id="default">
                   Default Buttons
-                  <a className="anchor-link" href="#default">
+                  <Link className="anchor-link" to="#default">
                     #
-                  </a>
+                  </Link>
                 </h5>
                 <p className="text-muted">
                   Use the button classes on an <code>&lt;a&gt;</code>,
@@ -875,20 +874,14 @@ const Buttons = () => {
                           aria-labelledby="dropdown"
                         >
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -927,20 +920,14 @@ const Buttons = () => {
                           aria-labelledby="verticalDropdown"
                         >
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              className="dropdown-item"
-                              href="javascript:void(0);"
-                            >
+                            <Link className="dropdown-item" to="#">
                               Dropdown link
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>

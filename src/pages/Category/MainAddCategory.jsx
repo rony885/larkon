@@ -139,31 +139,31 @@ const AddCategory = () => {
                 </div>
 
                 {/* <div className="card-body">
-                <form
-                  className="dropzone"
-                  id="myAwesomeDropzone"
-                  data-plugin="dropzone"
-                  data-previews-container="#file-previews"
-                  data-upload-preview-template="#uploadPreviewTemplate"
-                >
-                  <div className="fallback">
-                    <input name="file" type="file" multiple />
-                  </div>
-                  <div className="dz-message needsclick">
-                    <i className="bx bx-cloud-upload fs-48 text-primary"></i>
-                    <h3 className="mt-4">
-                      Drop your images here, or
-                      <span className="text-primary">click to browse</span>
-                    </h3>
-                    <span className="text-muted fs-13">
-                      1600 x 1200 (4:3) recommended. PNG, JPG and GIF files are
-                      allowed
-                    </span>
-                  </div>
-                </form>
-              </div> */}
-
-                {/* <div className="card-body">
+                  <form
+                    className="dropzone"
+                    id="myAwesomeDropzone"
+                    data-plugin="dropzone"
+                    data-previews-container="#file-previews"
+                    data-upload-preview-template="#uploadPreviewTemplate"
+                  >
+                    <div className="fallback">
+                      <input name="file" type="file" multiple />
+                    </div>
+                    <div className="dz-message needsclick">
+                      <i className="bx bx-cloud-upload fs-48 text-primary"></i>
+                      <h3 className="mt-4">
+                        Drop your images here, or
+                        <span className="text-primary">click to browse</span>
+                      </h3>
+                      <span className="text-muted fs-13">
+                        1600 x 1200 (4:3) recommended. PNG, JPG and GIF files
+                        are allowed
+                      </span>
+                    </div>
+                  </form>
+                </div> */}
+                {/* 
+                <div className="card-body">
                   <form
                     className="dropzone"
                     id="myAwesomeDropzone"
@@ -244,8 +244,8 @@ const AddCategory = () => {
                     )}
                   </form>
                 </div> */}
-                {/* 
-                <div className="card-body">
+
+                {/* <div className="card-body">
                   <form className="dropzone" encType="multipart/form-data">
                     <div className="fallback">
                       <input

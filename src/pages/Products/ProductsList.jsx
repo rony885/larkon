@@ -1,5 +1,3 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useRef, useState } from "react";
 import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
@@ -7,13 +5,13 @@ import "@iconify-icon/react";
 
 const ProductsList = () => {
   const [isOpen, setIsOpen] = useState(false);
-    const sectionRef = useRef(null);
+  const sectionRef = useRef(null);
 
   const handleScroll = () => {
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
-    const videoRef = useRef(null);
+  const videoRef = useRef(null);
 
   const handlePlay = () => {
     videoRef.current.play();
@@ -23,8 +21,8 @@ const ProductsList = () => {
     videoRef.current.pause();
   };
 
-    const inputRef = useRef(null);
-console.log(inputRef)
+  const inputRef = useRef(null);
+  console.log(inputRef);
   const handleClick = () => {
     inputRef.current.focus(); // focus the input field
   };
@@ -47,28 +45,28 @@ console.log(inputRef)
                 </Link>
 
                 <div className="dropdown">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="dropdown-toggle btn btn-sm btn-outline-light"
                     onClick={toggleDropdown}
                     aria-expanded={isOpen}
                   >
                     This Month
-                  </a>
+                  </Link>
                   <div
                     className={`dropdown-menu dropdown-menu-end ${
                       isOpen ? "show" : ""
                     }`}
                   >
-                    <a href="#!" className="dropdown-item">
+                    <Link to="#!" className="dropdown-item">
                       Download
-                    </a>
-                    <a href="#!" className="dropdown-item">
+                    </Link>
+                    <Link to="#!" className="dropdown-item">
                       Export
-                    </a>
-                    <a href="#!" className="dropdown-item">
+                    </Link>
+                    <Link to="#!" className="dropdown-item">
                       Import
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -126,12 +124,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Black T-shirt
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M , L , Xl
                               </p>
@@ -158,27 +156,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -209,12 +210,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Olive Green Leather Bag
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M
                               </p>
@@ -241,27 +242,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -291,12 +295,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Women Golden Dress
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M
                               </p>
@@ -323,27 +327,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -374,12 +381,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Gray Cap For Men
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M , L
                               </p>
@@ -406,27 +413,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -457,12 +467,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Dark Green Cargo Pent
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M , L , Xl
                               </p>
@@ -489,27 +499,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -540,12 +553,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Orange Multi Color Headphone
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M
                               </p>
@@ -572,27 +585,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -623,12 +639,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Kid's Yellow Shoes
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>18 , 19 , 20 , 21
                               </p>
@@ -655,27 +671,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -706,12 +725,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Men Dark Brown Wallet
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M
                               </p>
@@ -738,27 +757,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -789,12 +811,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Sky Blue Sunglass
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M
                               </p>
@@ -821,27 +843,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -872,12 +897,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Kid's Yellow T-shirt
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S
                               </p>
@@ -904,27 +929,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -955,12 +983,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 White Rubber Band Smart Watch
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>S , M
                               </p>
@@ -985,27 +1013,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -1036,12 +1067,12 @@ console.log(inputRef)
                               />
                             </div>
                             <div>
-                              <a
-                                href="#!"
+                              <Link
+                                to="#!"
                                 className="text-dark fw-medium fs-15"
                               >
                                 Men Brown Leather Shoes
-                              </a>
+                              </Link>
                               <p className="text-muted mb-0 mt-1 fs-13">
                                 <span>Size : </span>40 , 41 , 42 , 43
                               </p>
@@ -1068,27 +1099,30 @@ console.log(inputRef)
                         </td>
                         <td>
                           <div className="d-flex gap-2">
-                            <a href="#!" className="btn btn-light btn-sm">
+                            <Link to="#!" className="btn btn-light btn-sm">
                               <iconify-icon
                                 icon="solar:eye-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a
-                              href="#!"
+                            </Link>
+                            <Link
+                              to="#!"
                               className="btn btn-soft-primary btn-sm"
                             >
                               <iconify-icon
                                 icon="solar:pen-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
-                            <a href="#!" className="btn btn-soft-danger btn-sm">
+                            </Link>
+                            <Link
+                              to="#!"
+                              className="btn btn-soft-danger btn-sm"
+                            >
                               <iconify-icon
                                 icon="solar:trash-bin-minimalistic-2-broken"
                                 className="align-middle fs-18"
                               ></iconify-icon>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -1102,64 +1136,66 @@ console.log(inputRef)
                 <nav aria-label="Page navigation example">
                   <ul className="pagination justify-content-end mb-0">
                     <li className="page-item">
-                      <a className="page-link" href="javascript:void(0);">
+                      <Link className="page-link" to="#">
                         Previous
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item active">
-                      <a className="page-link" href="javascript:void(0);">
+                      <Link className="page-link" to="#">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="javascript:void(0);">
+                      <Link className="page-link" to="#">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="javascript:void(0);">
+                      <Link className="page-link" to="#">
                         3
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="javascript:void(0);">
+                      <Link className="page-link" to="#">
                         Next
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
               </div>
 
-               <div>
-      <button onClick={handleScroll}>Go to Section</button>
+              <div>
+                <button onClick={handleScroll}>Go to Section</button>
+                <div style={{ height: "800px" }}></div>{" "}
+                {/* Just to create scroll space */}
+                <div
+                  ref={sectionRef}
+                  style={{
+                    height: "200px",
+                    background: "lightblue",
+                    padding: "20px",
+                  }}
+                >
+                  🎯 You have reached the section!
+                </div>
+              </div>
 
-      <div style={{ height: '800px' }}></div> {/* Just to create scroll space */}
+              <div>
+                <video
+                  ref={videoRef}
+                  width="100%"
+                  src="https://www.w3schools.com/html/mov_bbb.mp4"
+                  controls={false}
+                ></video>
+                <br />
+                <button onClick={handlePlay}>▶️ Play</button>
+                <button onClick={handlePause}>⏸️ Pause</button>
+              </div>
 
-      <div
-        ref={sectionRef}
-        style={{ height: '200px', background: 'lightblue', padding: '20px' }}
-      >
-        🎯 You have reached the section!
-      </div>
-    </div>
-
-    <div>
-      <video
-        ref={videoRef}
-        width="100%"
-        src="https://www.w3schools.com/html/mov_bbb.mp4"
-        controls={false}
-      ></video>
-      <br />
-      <button onClick={handlePlay}>▶️ Play</button>
-      <button onClick={handlePause}>⏸️ Pause</button>
-    </div>
-
-        <div>
-      <input type="text" ref={inputRef}  />
-      <button onClick={handleClick}>Focus the input</button>
-    </div>
-
+              <div>
+                <input type="text" ref={inputRef} />
+                <button onClick={handleClick}>Focus the input</button>
+              </div>
             </div>
           </div>
         </div>

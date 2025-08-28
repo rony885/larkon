@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
@@ -27,15 +26,15 @@ const Profile = () => {
                     <p className="mb-0">Project Head Manager</p>
                   </div>
                   <div className="d-flex align-items-center gap-2 my-2 my-lg-0">
-                    <a href="#!" className="btn btn-info">
+                    <Link to="#!" className="btn btn-info">
                       <i className="bx bx-message-dots"></i> Message
-                    </a>
-                    <a href="#!" className="btn btn-outline-primary">
+                    </Link>
+                    <Link to="#!" className="btn btn-outline-primary">
                       <i className="bx bx-plus"></i> Follow
-                    </a>
+                    </Link>
                     <div className="dropdown">
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none card-drop"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
@@ -44,19 +43,19 @@ const Profile = () => {
                           icon="solar:menu-dots-bold"
                           className="fs-20 align-middle text-muted"
                         ></iconify-icon>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        <Link to="#" className="dropdown-item">
                           Download
-                        </a>
+                        </Link>
 
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        <Link to="#" className="dropdown-item">
                           Export
-                        </a>
+                        </Link>
 
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        <Link to="#" className="dropdown-item">
                           Import
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -175,9 +174,9 @@ const Profile = () => {
                     </div>
                     <p className="mb-0 fs-14">
                       Email
-                      <a href="#!" className="text-primary fw-semibold">
+                      <Link to="#!" className="text-primary fw-semibold">
                         hello@dundermuffilin.com
-                      </a>
+                      </Link>
                     </p>
                   </div>
                   <div className="d-flex align-items-center gap-2 mb-2">
@@ -189,9 +188,9 @@ const Profile = () => {
                     </div>
                     <p className="mb-0 fs-14">
                       Website
-                      <a href="#!" className="text-primary fw-semibold">
+                      <Link to="#!" className="text-primary fw-semibold">
                         www.larkon.co
-                      </a>
+                      </Link>
                     </p>
                   </div>
                   <div className="d-flex align-items-center gap-2 mb-2">
@@ -224,9 +223,9 @@ const Profile = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <a href="#!" className="text-primary">
+                    <Link to="#!" className="text-primary">
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -241,24 +240,25 @@ const Profile = () => {
               </div>
               <div className="card-body">
                 <p>
-                  I'm the model of the new Project Head Manager. I've combined a
-                  deep background in brand management at blue chip CPG companies
-                  with eCommerce growth marketing at the world's biggest
-                  retailer. I've run SingleFire I've created world-class
+                  I'm the model of the new Project Head Manager. I've combined
+                  Link deep background in brand management at blue chip CPG
+                  companies with eCommerce growth marketing at the world's
+                  biggest retailer. I've run SingleFire I've created world-class
                   campaigns; I've built digital marketing organizations from the
                   ground up. I have over 20 years' experience leading...
-                  <a href="#!" className="text-primary">
+                  <Link to="#!" className="text-primary">
                     See more
-                  </a>
+                  </Link>
                 </p>
                 <h4 className="card-title mb-2">My Approach :</h4>
                 <p>
-                  When it comes to Project Head Manager, I believe in a holistic
-                  approach that combines creativity with technical expertise. I
-                  start by understanding your unique vision and goals, then work
-                  tirelessly to bring that vision to life. Whether you need a
-                  sleek portfolio site, an engaging e-commerce platform, or
-                  anything in between, I've got you covered.
+                  When it comes to Project Head Manager, I believe in Link
+                  holistic approach that combines creativity with technical
+                  expertise. I start by understanding your unique vision and
+                  goals, then work tirelessly to bring that vision to life.
+                  Whether you need Link sleek portfolio site, an engaging
+                  e-commerce platform, or anything in between, I've got you
+                  covered.
                 </p>
                 <div className="row g-2 mt-2 mb-4">
                   <div className="col-lg-6">
@@ -414,46 +414,46 @@ const Profile = () => {
                 />
                 <ul className="list-inline d-flex gap-1 my-3 align-items-center justify-content-center">
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-primary avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-danger avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-info avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-success avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bxl-whatsapp"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-inline-item">
-                    <a
-                      href="javascript: void(0);"
+                    <Link
+                      to="#"
                       className="btn btn-soft-warning avatar-sm d-flex align-items-center justify-content-center fs-20"
                     >
                       <i className="bx bx-envelope"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <p className="text-muted">
@@ -461,9 +461,9 @@ const Profile = () => {
                 </p>
                 <p className="d-flex align-items-center border p-2 rounded-2 border-dashed bg-body text-start mb-0">
                   https://larkon-mileage.com
-                  <a href="#!" className="ms-auto fs-4">
+                  <Link to="#!" className="ms-auto fs-4">
                     <i className="ti ti-copy"></i>
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -549,9 +549,9 @@ const Profile = () => {
                 </div>
               </div>
               <div className="card-footer border-top text-center">
-                <a href="#!" className="link-primary">
+                <Link to="#!" className="link-primary">
                   View More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -572,35 +572,35 @@ const Profile = () => {
                       </span>
                     </h4>
                     <p className="mb-0">
-                      Asked a question
-                      <a href="#!" className="text-primary ms-1">
+                      Asked Link question
+                      <Link to="#!" className="text-primary ms-1">
                         #inbound
-                      </a>
-                      <a href="#!" className="text-primary ms-1">
+                      </Link>
+                      <Link to="#!" className="text-primary ms-1">
                         #SaaS
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
                 <h4 className="mt-3">
-                  Do you have any experience with deploying @Hubspot for a SaaS
-                  business with both a direct and self-serve model?
+                  Do you have any experience with deploying @Hubspot for Link
+                  SaaS business with both Link direct and self-serve model?
                 </h4>
                 <p className="mb-0">
-                  We are a Series A B2B startup offering a custom solution.
-                  Currently, we are utilizing @MixPanel and collaborating with
-                  @Division of Labor to rebuild our pages. Shoutout to @Jennifer
-                  Smith for her support...
-                  <a href="#!" className="link-primary">
+                  We are Link Series A B2B startup offering Link custom
+                  solution. Currently, we are utilizing @MixPanel and
+                  collaborating with @Division of Labor to rebuild our pages.
+                  Shoutout to @Jennifer Smith for her support...
+                  <Link to="#!" className="link-primary">
                     See more
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="card-footer border-top">
                 <div className="row">
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-primary d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -608,11 +608,11 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Answer
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-dark d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -620,11 +620,11 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Thanks
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-dark d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -632,7 +632,7 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Insightful
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -653,33 +653,33 @@ const Profile = () => {
                       </span>
                     </h4>
                     <p className="mb-0">
-                      Asked a question
-                      <a href="#!" className="text-primary ms-1">
+                      Asked Link question
+                      <Link to="#!" className="text-primary ms-1">
                         #LatAm
-                      </a>
-                      <a href="#!" className="text-primary ms-1">
+                      </Link>
+                      <Link to="#!" className="text-primary ms-1">
                         #Europe
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
                 <h4 className="mt-3">
-                  Looking for a new landing page optimization vendor
+                  Looking for Link new landing page optimization vendor
                 </h4>
                 <p className="mb-0">
                   We are currently using @Optimizely, but find that they are
-                  missing a number with a custom solution that no...
-                  <a href="#!" className="link-primary">
+                  missing Link number with Link custom solution that no...
+                  <Link to="#!" className="link-primary">
                     {" "}
                     See more
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="card-footer border-top">
                 <div className="row">
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-primary d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -687,11 +687,11 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Answer
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-dark d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -699,11 +699,11 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Thanks
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-dark d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -711,7 +711,7 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Insightful
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -732,34 +732,34 @@ const Profile = () => {
                       </span>
                     </h4>
                     <p className="mb-0">
-                      Asked a question
-                      <a href="#!" className="text-primary ms-1">
+                      Asked Link question
+                      <Link to="#!" className="text-primary ms-1">
                         #Performance-marketing
-                      </a>
-                      <a href="#!" className="text-primary ms-1">
+                      </Link>
+                      <Link to="#!" className="text-primary ms-1">
                         #CRM
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
                 <h4 className="mt-3">
-                  Why Your Company Needs a CRM to Grow Better?
+                  Why Your Company Needs Link CRM to Grow Better?
                 </h4>
                 <p className="mb-0">
                   CRMs are powerful tools that help you expedite business growth
-                  while number with a custom eliminating friction, improving
+                  while number with Link custom eliminating friction, improving
                   cross-team collaboration, managing your contact records,
                   syncing...
-                  <a href="#!" className="link-primary">
+                  <Link to="#!" className="link-primary">
                     See more
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="card-footer border-top">
                 <div className="row">
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-primary d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -767,11 +767,11 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Answer
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-dark d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -779,11 +779,11 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Thanks
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2 col-4">
-                    <a
-                      href="#!"
+                    <Link
+                      to="#!"
                       className="text-dark d-inline-flex gap-1 align-items-center fs-14"
                     >
                       <iconify-icon
@@ -791,7 +791,7 @@ const Profile = () => {
                         className="fs-16"
                       ></iconify-icon>
                       Insightful
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
