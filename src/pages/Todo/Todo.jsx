@@ -1,6 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Todo = () => {
   return (
@@ -24,9 +24,9 @@ const Todo = () => {
                     />
                   </div>
                   <div>
-                    <a href="#!" className="btn btn-primary">
+                    <Link to="#!" className="btn btn-primary">
                       <i className="bx bx-plus me-1"></i>Create Task
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* <!-- end row --> */}
@@ -656,29 +656,29 @@ const Todo = () => {
                   <div className="col-sm-auto mt-3 mt-sm-0">
                     <ul className="pagination pagination-rounded m-0">
                       <li className="page-item">
-                        <a href="#" className="page-link">
+                        <Link to="#" className="page-link">
                           <i className="bx bx-left-arrow-alt"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item active">
-                        <a href="#" className="page-link">
+                        <Link to="#" className="page-link">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a href="#" className="page-link">
+                        <Link to="#" className="page-link">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a href="#" className="page-link">
+                        <Link to="#" className="page-link">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a href="#" className="page-link">
+                        <Link to="#" className="page-link">
                           <i className="bx bx-right-arrow-alt"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

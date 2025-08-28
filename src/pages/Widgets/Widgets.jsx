@@ -1,7 +1,6 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Widgets = () => {
   return (
@@ -41,9 +40,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Week</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -79,9 +78,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -117,9 +116,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -157,9 +156,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -279,10 +278,10 @@ const Widgets = () => {
               <div className="card-body p-0">
                 <div className="pt-3 px-3">
                   <div className="float-end">
-                    <a href="javascript:void(0);" className="text-primary">
+                    <Link to="#" className="text-primary">
                       Export
                       <i className="bx bx-export ms-1"></i>
-                    </a>
+                    </Link>
                   </div>
                   <h5 className="card-title mb-3">Recent Project Summary</h5>
                 </div>
@@ -308,36 +307,27 @@ const Widgets = () => {
                           <td>Zelogy</td>
                           <td>Daniel Olsen</td>
                           <td className="avatar-group">
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-2.jpg"
                                 alt="avatar-2"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-3.jpg"
                                 alt="avatar-3"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-4.jpg"
                                 alt="avatar-4"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>12 April 2024</td>
                           <td>
@@ -358,26 +348,20 @@ const Widgets = () => {
                           <td>Shiaz</td>
                           <td>Jack Roldan</td>
                           <td className="avatar-group">
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-1.jpg"
                                 alt="avatar-1"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-5.jpg"
                                 alt="avatar-5"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>10 April 2024</td>
                           <td>
@@ -397,36 +381,27 @@ const Widgets = () => {
                           <td>Holderick</td>
                           <td>Betty Cox</td>
                           <td className="avatar-group">
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-5.jpg"
                                 alt="avatar-5"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-2.jpg"
                                 alt="avatar-2"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-3.jpg"
                                 alt="avatar-3"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>31 March 2024</td>
                           <td>
@@ -446,36 +421,27 @@ const Widgets = () => {
                           <td>Feyvux</td>
                           <td>Carlos Johnson</td>
                           <td className="avatar-group">
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-3.jpg"
                                 alt="avatar-3"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-7.jpg"
                                 alt="avatar-7"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-6.jpg"
                                 alt="avatar-6"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>25 March 2024</td>
                           <td>
@@ -495,16 +461,13 @@ const Widgets = () => {
                           <td>Xavlox</td>
                           <td>Lorraine Cox</td>
                           <td className="avatar-group">
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-7.jpg"
                                 alt="avatar-7"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>22 March 2024</td>
                           <td>
@@ -524,36 +487,27 @@ const Widgets = () => {
                           <td>Mozacav</td>
                           <td>Delores Young</td>
                           <td className="avatar-group">
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-3.jpg"
                                 alt="avatar-3"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-4.jpg"
                                 alt="avatar-4"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
-                            <a
-                              href="javascript:void(0);"
-                              className="avatar-group-item"
-                            >
+                            </Link>
+                            <Link to="#" className="avatar-group-item">
                               <img
                                 src="assets/images/users/avatar-2.jpg"
                                 alt="avatar-2"
                                 className="img-fluid avatar-xs rounded-circle avatar-border"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>15 March 2024</td>
                           <td>
@@ -586,24 +540,24 @@ const Widgets = () => {
             <div className="card">
               <div className="card-body">
                 <div className="dropdown float-end">
-                  <a
-                    href="javascript:void(0);"
+                  <Link
+                    to="#"
                     className="dropdown-toggle arrow-none"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     <i className="bx bx-dots-vertical-rounded fs-18 text-dark"></i>
-                  </a>
+                  </Link>
                   <div className="dropdown-menu dropdown-menu-end">
-                    <a href="javascript:void(0);" className="dropdown-item">
+                    <Link to="#" className="dropdown-item">
                       <i className="bx bx-list-ul me-2"></i>To Do
-                    </a>
-                    <a href="javascript:void(0);" className="dropdown-item">
+                    </Link>
+                    <Link to="#" className="dropdown-item">
                       <i className="bx bx-line-chart me-2"></i>In Progress
-                    </a>
-                    <a href="javascript:void(0);" className="dropdown-item">
+                    </Link>
+                    <Link to="#" className="dropdown-item">
                       <i className="bx bx-check-square me-2"></i>Completed
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="card-title mb-3">Today's Schedules</h5>
@@ -888,9 +842,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -925,9 +879,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -962,9 +916,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -1001,9 +955,9 @@ const Widgets = () => {
                     </span>
                     <span className="text-muted ms-1 fs-12">Last Month</span>
                   </div>
-                  <a href="#!" className="text-reset fw-semibold fs-12">
+                  <Link to="#!" className="text-reset fw-semibold fs-12">
                     View More
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card body --> */}
@@ -1020,9 +974,9 @@ const Widgets = () => {
               <div className="card-header d-flex justify-content-between align-items-center">
                 <h4 className="card-title">My Tasks</h4>
                 <div>
-                  <a href="#!" className="btn btn-sm btn-primary">
+                  <Link to="#!" className="btn btn-sm btn-primary">
                     <i className="bx bx-plus me-1"></i>Create Task
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card-header--> */}
@@ -1164,33 +1118,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Victoria P. Miller</a>
+                        <Link to="#!">Victoria P. Miller</Link>
                       </h5>
                       <p className="mb-0">no mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1204,33 +1158,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Dallas C. Payne</a>
+                        <Link to="#!">Dallas C. Payne</Link>
                       </h5>
                       <p className="mb-0">856 mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1244,33 +1198,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Florence A. Lopez</a>
+                        <Link to="#!">Florence A. Lopez</Link>
                       </h5>
                       <p className="mb-0">52 mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1284,33 +1238,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Gail A. Nix</a>
+                        <Link to="#!">Gail A. Nix</Link>
                       </h5>
                       <p className="mb-0">12 mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1324,33 +1278,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Lynne J. Petty</a>
+                        <Link to="#!">Lynne J. Petty</Link>
                       </h5>
                       <p className="mb-0">no mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1365,33 +1319,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Victoria P. Miller</a>
+                        <Link to="#!">Victoria P. Miller</Link>
                       </h5>
                       <p className="mb-0">no mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1405,33 +1359,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Dallas C. Payne</a>
+                        <Link to="#!">Dallas C. Payne</Link>
                       </h5>
                       <p className="mb-0">856 mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1445,33 +1399,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Florence A. Lopez</a>
+                        <Link to="#!">Florence A. Lopez</Link>
                       </h5>
                       <p className="mb-0">52 mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1485,33 +1439,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Gail A. Nix</a>
+                        <Link to="#!">Gail A. Nix</Link>
                       </h5>
                       <p className="mb-0">12 mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1525,33 +1479,33 @@ const Widgets = () => {
                     </div>
                     <div className="flex-grow-1">
                       <h5 className="mb-1 fs-14">
-                        <a href="#!">Lynne J. Petty</a>
+                        <Link to="#!">Lynne J. Petty</Link>
                       </h5>
                       <p className="mb-0">no mutual friends</p>
                     </div>
                     <div className="dropdown">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="#"
                         className="dropdown-toggle arrow-none text-dark"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="bx bx-dots-vertical-rounded fs-18"></i>
-                      </a>
+                      </Link>
                       <div className="dropdown-menu dropdown-menu-end">
-                        <a href="#!" className="dropdown-item">
+                        <Link to="#!" className="dropdown-item">
                           <i className="bx bxs-user-detail me-1"></i>See Profile
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bxl-telegram me-1"></i>Message to
                           Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-user-x me-1"></i>Unfriend Victoria
-                        </a>
-                        <a href="javascript:void(0);" className="dropdown-item">
+                        </Link>
+                        <Link to="#" className="dropdown-item">
                           <i className="bx bx-block me-1"></i>Block Victoria
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1568,9 +1522,9 @@ const Widgets = () => {
               <div className="card-header d-flex justify-content-between align-items-center">
                 <h4 className="card-title">Recent Transactions</h4>
                 <div>
-                  <a href="#!" className="btn btn-sm btn-primary">
+                  <Link to="#!" className="btn btn-sm btn-primary">
                     <i className="bx bx-plus me-1"></i>Add
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* <!-- end card-header--> */}
