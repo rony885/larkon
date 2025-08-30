@@ -12,7 +12,7 @@ const Profile = () => {
               <div className="card-body">
                 <div className="bg-primary profile-bg rounded-top position-relative mx-n3 mt-n3">
                   <img
-                    src="assets/images/users/avatar-1.jpg"
+                    src="/assets/images/users/avatar-1.jpg"
                     alt=""
                     className="avatar-xl border border-light border-3 rounded-circle position-absolute top-100 start-0 translate-middle ms-5"
                   />

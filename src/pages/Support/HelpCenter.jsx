@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const HelpCenter = () => {
   return (
@@ -51,7 +52,7 @@ const HelpCenter = () => {
                 </div>
                 <h4 className="mt-3">Getting Started with Larkon</h4>
                 <p>
-                  Welcome to Larkon Dive into basic for a swift on boarding
+                  Welcome to Larkon Dive into basic for Link swift on boarding
                   experience
                 </p>
 
@@ -65,14 +66,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     19 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -104,14 +105,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     10 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -143,14 +144,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     07 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -174,7 +175,7 @@ const HelpCenter = () => {
 
                 <div className="d-flex align-items-center gap-2">
                   <img
-                    src="assets/images/users/avatar-4.jpg"
+                    src="/assets/images/users/avatar-4.jpg"
                     alt="user"
                     className="avatar-sm rounded-circle"
                   />
@@ -182,14 +183,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     03 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -221,14 +222,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     11 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -260,14 +261,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     09 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -299,14 +300,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     14 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -324,7 +325,7 @@ const HelpCenter = () => {
 
                 <h4 className="mt-3">Permissions</h4>
                 <p>
-                  Permission for you and others to join and work within a
+                  Permission for you and others to join and work within Link
                   workspace
                 </p>
 
@@ -338,14 +339,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     17 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -377,14 +378,14 @@ const HelpCenter = () => {
 
                   <div className="vr bg-dark-subtle h-75 my-auto"></div>
 
-                  <a
-                    href="#!"
+                  <Link
+                    to="#!"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     className="link-primary"
                   >
                     12 Video
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -472,9 +473,9 @@ const HelpCenter = () => {
                 </div>
               </div>
               <div className="modal-footer p-2">
-                <a href="#!" className="btn btn-primary">
+                <Link to="#!" className="btn btn-primary">
                   More Video
-                </a>
+                </Link>
               </div>
             </div>
           </div>

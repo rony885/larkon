@@ -9,7 +9,6 @@ const ProductDetails = () => {
           <div className="col-lg-4">
             <div className="card">
               <div className="card-body">
-                {/* <!-- Crossfade --> */}
                 <div
                   id="carouselExampleFade"
                   className="carousel slide carousel-fade"
@@ -44,14 +43,6 @@ const ProductDetails = () => {
                         className="img-fluid bg-light rounded"
                       />
                     </div>
-                    {/* <!-- <a className="carousel-control-prev rounded" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-                                               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                               <span className="visually-hidden">Previous</span>
-                                          </a>
-                                          <a className="carousel-control-next rounded" href="#carouselExampleFade" role="button" data-bs-slide="next">
-                                               <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                               <span className="visually-hidden">Next</span>
-                                          </a> --> */}
                   </div>
                   <div className="carousel-indicators m-0 mt-2 d-lg-flex d-none position-static h-100">
                     <button

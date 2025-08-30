@@ -736,7 +736,6 @@ const PurchasesList = () => {
                     </tbody>
                   </table>
                 </div>
-                {/* <!-- end table-responsive --> */}
               </div>
 
               <div className="card-footer border-top">

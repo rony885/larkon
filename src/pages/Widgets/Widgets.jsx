@@ -6,7 +6,7 @@ const Widgets = () => {
   return (
     <div className="page-content">
       <div className="container-xxl">
-        {/* <!-- Start here.... --> */}
+   
         <div className="row">
           <div className="col-md-3">
             <div className="card overflow-hidden">
@@ -20,7 +20,7 @@ const Widgets = () => {
                       ></iconify-icon>
                     </div>
                   </div>
-                  {/* <!-- end col --> */}
+             
                   <div className="col-6 text-end">
                     <p className="text-muted mb-0 text-truncate">
                       Total Orders

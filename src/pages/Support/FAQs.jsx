@@ -378,7 +378,6 @@ const FAQs = () => {
                     </div>
                   </div>
                 </div>
-                {/* <!-- end row--> */}
 
                 <div className="row my-5">
                   <div className="col-12 text-center">
@@ -393,14 +392,10 @@ const FAQs = () => {
                   </div>
                 </div>
               </div>
-              {/* <!-- end card-body--> */}
             </div>
-            {/* <!-- end card--> */}
           </div>
-          {/* <!-- end col--> */}
         </div>
       </div>
-      {/* <!-- End Container xxl --> */}
 
       <Footer />
     </div>

@@ -538,7 +538,7 @@ const PurchaseReturns = () => {
                         </td>
                         <td>
                           <img
-                            src="assets/images/users/avatar-7.jpg"
+                            src="/assets/images/users/avatar-7.jpg"
                             className="avatar-sm rounded-circle me-2"
                             alt="..."
                           />
@@ -790,7 +790,6 @@ const PurchaseReturns = () => {
                     </tbody>
                   </table>
                 </div>
-                {/* <!-- end table-responsive --> */}
               </div>
               <div className="card-footer border-top">
                 <nav aria-label="Page navigation example">

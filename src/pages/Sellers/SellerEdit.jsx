@@ -608,14 +608,6 @@ const SellerEdit = () => {
                                   <span className="text-danger">*</span>
                                 </label>
 
-                                {/* <input
-                                  type="text"
-                                  id="schedule-date"
-                                  class="form-control flatpickr-input active"
-                                  placeholder="dd-mm-yyyy"
-                                  readonly="readonly"
-                                /> */}
-
                                 <Flatpickr
                                   id="schedule-date"
                                   className="form-control flatpickr-input active"

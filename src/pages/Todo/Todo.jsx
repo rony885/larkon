@@ -6,7 +6,6 @@ const Todo = () => {
   return (
     <div className="page-content">
       <div className="container-xxl">
-        {/* <!-- Start here.... --> */}
         <div className="row">
           <div className="col">
             <div className="card">
@@ -29,7 +28,6 @@ const Todo = () => {
                     </Link>
                   </div>
                 </div>
-                {/* <!-- end row --> */}
               </div>
               <div>
                 <div className="table-responsive table-centered">
@@ -45,7 +43,7 @@ const Todo = () => {
                         <th className="border-0 py-2">Action</th>
                       </tr>
                     </thead>
-                    {/* <!-- end thead--> */}
+
                     <tbody>
                       <tr>
                         <td>
@@ -132,7 +130,7 @@ const Todo = () => {
                         <td>
                           <div className="d-flex align-items-center">
                             <img
-                              src="assets/images/users/avatar-3.jpg"
+                              src="/assets/images/users/avatar-3.jpg"
                               alt=""
                               className="avatar-xs rounded-circle me-2"
                             />
@@ -192,7 +190,7 @@ const Todo = () => {
                         <td>
                           <div className="d-flex align-items-center">
                             <img
-                              src="assets/images/users/avatar-4.jpg"
+                              src="/assets/images/users/avatar-4.jpg"
                               alt=""
                               className="avatar-xs rounded-circle me-2"
                             />
@@ -641,11 +639,9 @@ const Todo = () => {
                         </td>
                       </tr>
                     </tbody>
-                    {/* <!-- end tbody --> */}
                   </table>
-                  {/* <!-- end table --> */}
                 </div>
-                {/* <!-- table responsive --> */}
+
                 <div className="align-items-center justify-content-between row g-0 text-center text-sm-start p-3 border-top">
                   <div className="col-sm">
                     <div className="text-muted">
@@ -684,13 +680,9 @@ const Todo = () => {
                   </div>
                 </div>
               </div>
-              {/* <!-- end card body --> */}
             </div>
-            {/* <!-- end card --> */}
           </div>
-          {/* <!-- end col --> */}
         </div>
-        {/* <!-- end row --> */}
       </div>
       <Footer />
     </div>
