@@ -269,6 +269,7 @@ const ProductsList = () => {
                           </div>
                         </td>
                       </tr>
+                      
                       <tr>
                         <td>
                           <div className="form-check ms-1">
